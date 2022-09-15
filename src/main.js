@@ -7,4 +7,4 @@ import iconsets from "@/plugins/iconsets";
 
 loadFonts();
 
-createApp(App).use(router).use(iconsets).use(vuetify).mount("#app");
+createApp(App).use(router).use(vuetify).mount("#app");

@@ -1,6 +1,6 @@
 <template>
   <VIcon icon="mdi:mdi-star"></VIcon>
-  <VIcon icon="ecosystem"></VIcon>
+  <VIcon icon="icon-tooling"></VIcon>
 </template>
 
 <script>

@@ -6,6 +6,9 @@ const customIconPlugin = {
 
     Object.entries(svgIcons).forEach(([icon, svg]) => {
       const iconTag = /\/(\w*)\.svg/.exec(icon)[1];
+
+      console.log(iconTag, svg);
+
       app.component(iconTag, svg);
     });
   },
